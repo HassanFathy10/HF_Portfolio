@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HF Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link type="images/HF.jpg" sizes="48x48" rel="Shortcut Icon" href="images/HF.jpg">
+    <!-- Load Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="web.js" defer></script>
+
+</head>
+<body>
+    <!-- HTML Follows BEM naming conventions 
+    IDs are only used for sections to connect menu achors to sections -->
+    <header>
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <nav id="navbar_menu">
+            <a href=""><img src="https://i.ibb.co/5c7XkmR/HF-1.jpg" rel="noopener" style="--i:1;"></a>
+            <ul id="navbar_list">
+            <li>
+                <a href="#About" class="menu_link">About</a>
+            </li>
+            <li>
+                <a href="#services" class="menu_link">Services</a>
+            </li>
+            <li>
+                <a href="#projects" class="menu_link">Projects</a>
+            </li>
+            <li>
+                <a href="#contact" class="menu_link">Contact</a>
+            </li>
+        </ul>
+        </nav>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+
+    <section id="About" data-nav="About" class="cover reveal your-active-class">
+        <div class="landing__container">
+            <p id="hi" style="--i:2;">Hi, I'm </p>
+            <h1>HASSAN FATHY</h1>
+            <h2 style="--i:4;">I'm a <span class="text"></span></h2>
+            <h3 style="--i:5;">Let's Discover My Portfolio</h3>
+            <a href="#projects" class="main-btn" role="button" style="--i:6;">View My Works</a>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/hassan-fathy/" target="_blank" rel="no-referrer" style="--i:7;"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/HassanFathy10" target="_blank" rel="no-referrer" style="--i:8;"><i class="fa-brands fa-github"></i></a>
+            <a href="https://confirm.udacity.com/4SCYCSCA" target="_blank" rel="no-referrer" style="--i:9;"><i class="fa-solid fa-certificate"></i></a>
+        </div>
+        </div>
+    </section>
+
+    <section id="services" data-nav="Services" class="reveal your-active-class">
+        <div class="title">Services</div>
+        <div class="content">
+            <div class="card">
+                <div class="icons">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="info">
+                    <h3 id="h3">Create website</h3>
+                    <p id="p">- Create website layout-user interface by using standard HTML- CSS - Javascript practices.<br><br>
+                        - Collaborated with stakeholders during development processes to confirm creative proposals and design best practices.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icons">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+                <div class="info">
+                    <h3 id="h3">Skills</h3>
+                    <p id="p">- HTML, CSS, Javascript.<br>
+                        - Node.js, Web APIS.<br>
+                        - Front-end frameworks.<br>
+                        - Responsiveness.<br>
+                        - Version control systems.<br>
+                        - CSS preprocessors.<br>
+                        - DOM manipulation.<br>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icons">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                </div>
+                <div class="info">
+                    <h3 id="h3">Maintaining</h3>
+                    <p id="p">- Maintaining.<br>
+                        - improving website.<br>
+                        - Testing and debugging.<br>
+                        - Command line interface.<br>
+                        - Web performance optimization.<br></p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="projects" data-nav="Projects" class="reveal your-active-class">
+        <div class="title">Projects</div>
+        <div class="content">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://i.ibb.co/C0cTr6k/unnamed.png">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Weather Journal App Project</p>
+                    <div class="project-title">
+                        <span>Weather App</span>
+                        <a href="https://hassanfathy10.github.io/Weather-App/" class="more-details">More details</a>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" data-nav="Contact" class="reveal your-active-class">
+        <div class="title">Let's Work Together</div>
+        <div class="content">
+            <div class="card">
+                <div class="icons">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3 id="h3">Phone</h3>
+                    <p id="phone">+201143814036</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icons">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3 id="h3">Email</h3>
+                    <p id="email">Hassanfathy460@gmail.com</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <button>UP</button>
+    <footer class="footer">
+            <p class="footer-title">Copyrights @ <span>Hassan Fathy</span></p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/hassan-fathy-7b4003225/
+            " target="_blank" rel="no-referrer" style="--i:7;"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/HassanFathy10" target="_blank" rel="no-referrer" style="--i:8;"><i class="fa-brands fa-github"></i></a>
+            </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
+</body>
+</html>
