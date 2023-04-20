@@ -452,7 +452,7 @@ row-gap: 1rem;
 
 /*=============== SERVICES ===============*/
 .services_container{
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1;
     gap: 1.5rem;
     padding-top: 1rem;
 }
@@ -549,20 +549,16 @@ row-gap: 1rem;
     cursor: pointer;
 }
 
-
 /*Active modal*/
-
+.active-model{
+    opacity: 1;
+    visibility: visible;
+}
 
 /*=============== WORK ===============*/
 
 
 /* Active item work*/
-
-
-/*=============== TESTIMONIAL ===============*/
-
-
-/* Swiper class */
 
 
 /*=============== CONTACT ===============*/
