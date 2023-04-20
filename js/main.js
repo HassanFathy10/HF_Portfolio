@@ -8,6 +8,13 @@ const scrollHeader = () =>{
 window.addEventListener('scroll', scrollHeader)
 
 /*=============== SERVICES MODAL ===============*/
+const modelviews = document.querySelectorAll("services_model"),
+    modelBtns = document.querySelectorAll("services_button"),
+    modelClose = document.querySelectorAll(".services_model-close");
+
+let model = (modelClick) => {
+    modelviews[modelClick].classList.add("active-model");
+    }
 
 
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
