@@ -13,9 +13,9 @@
     Pink: hsl(356, 66%, 75%)
     Teal: hsl(174, 63%, 62%)
 */
-    -first-hue: 44;
-    --sat: 100%;
-    --lig: 73%;
+    --first-hue: 177;
+    --sat: 94%;
+    --lig: 87%;
     --second-hue: 219;
     --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
     --first-color-alt: hsl(var(--first-hue), var(--sat), 71%); /* -4% */
@@ -187,7 +187,7 @@ the website, in light theme
 
 .nav_menu{
     position: fixed;
-    bottom: 1rem;
+    bottom: 1.5rem;
     background-color: hsla(var(--second-hue), 32%, 16%, .8);
     width: 90%;
     right: 5%;
@@ -375,49 +375,48 @@ width: 200px;
     text-align: justify;
     text-align-last: justify;
     margin-bottom: 2rem;
-
-  }
+}
 
 /*=============== SKILLS ===============*/
 .skills_container{
-row-gap: 2rem;
-padding-top: 1rem;
+    row-gap: 2rem;
+    padding-top: 1rem;
 }
 .skills_content{
-  background-color: var(--container-color);
-  padding: 1.5rem;
-  border-radius: 1.25rem;
-  }
-  .skills_title{
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
-  color: var(--first-color);
-  text-align: center; 
-  margin-bottom: 8%;
-  }
-  .skills_box{
+    background-color: var(--container-color);
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+}
+.skills_title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    color: var(--first-color);
+    text-align: center; 
+    margin-bottom: 8%;
+}
+.skills_box{
     display: flex;
     justify-content: center;
     column-gap: 2.5rem;
-  }
-  .skills_group{
+}
+.skills_group{
 display: grid;
 align-content: flex-start;
 row-gap: 1rem;
-  }
-  .skills_data{
+}
+.skills_data{
     display: flex;
     column-gap: .5rem;
-  }
-  .skills .bxs-checkbox-checked{
+}
+.skills .bxs-checkbox-checked{
     font-size: 1rem;
     color: var(--first-color);
-  }
-  .skills_name{
+}
+.skills_name{
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     line-height: 18px;
-  }
+}
 
 /*=============== SERVICES ===============*/
 
