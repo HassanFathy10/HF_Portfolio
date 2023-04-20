@@ -452,13 +452,14 @@ row-gap: 1rem;
 
 /*=============== SERVICES ===============*/
 .services_container{
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 1.5rem;
     padding-top: 1rem;
 }
 .services_card{
     background-color: var(--container-color);
     padding: 3rem 1.5rem 1.5rem;
+    align-items: center;
     border-radius: 1rem;
 }
 .services_title{
@@ -484,7 +485,24 @@ row-gap: 1rem;
 
 
 /* Services modal */
+.services_model{
+    position: fixed;
+    inset: 0;
+    background-color: hsl(var(--second-hue), 28%, 16%, 0.7);
+    padding: 2rem 1rem;
+    display: grid;
+    place-items: center;
+    /* visibility: hidden; */
+    /* opacity: 0; */
+    z-index: var(--z-modal);
+}
 
+.services_model-content{
+    position: relative;
+    background-color: var(--body-color);
+    padding: 4.5rem 1.5rem 2.5rem;
+    border-radius: 1.5rem;
+}
 
 /*Active modal*/
 
