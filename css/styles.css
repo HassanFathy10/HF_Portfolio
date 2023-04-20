@@ -257,18 +257,19 @@ font-size: var(--biggest-font-size);
 }
 
 .home_img{
-width: 200px;
+width: 350px;
+padding-bottom: 60px;
 } 
 
 .home_handle{
     justify-self: center;
-    width: 200px;
-    height: 235px; 
+    width: 450px;
+    height: 450px; 
     background:linear-gradient(180deg,
     hsla(var(--first-hue), var(--sat), var(--lig),1),
     hsla(var(--first-hue), var(--sat), var(--lig), .2)
     );
-    border-radius: 10rem 10rem 10rem 10rem;
+    border-radius: 450px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
