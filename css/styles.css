@@ -160,7 +160,7 @@ the website, in light theme
 .header {
     position: fixed;
     top: 0;
-    left: 4.5rem;
+    left: 0;
     width: 100%;
     background-color: var(--body-color);
     z-index: var(--z-fixed);
@@ -185,7 +185,7 @@ the website, in light theme
 
 .nav_menu{
     position: fixed;
-    bottom: 1.5rem;
+    bottom: 1rem;
     background-color: hsla(var(--second-hue), 32%, 16%, .8);
     width: 90%;
     right: 5%;
@@ -230,7 +230,6 @@ the website, in light theme
 
 .home_data{
     text-align: center;
-    align-items: center;
 }
 
 .home_greeting,
@@ -272,8 +271,6 @@ padding-bottom: 45px;
     align-items: flex-end;
     justify-content: center;
     overflow: hidden;
-    position:relative;
-
     }
 
 .home_buttons{
@@ -292,18 +289,18 @@ padding-bottom: 45px;
     bottom: 5rem;
     left: 0;
     display: grid;
-    row-gap: .5rem;
+    row-gap: 0.5rem;
 }
 
 .home_social-link{
     width: max-content;
     background-color:var(--container-color) ;
     color: var(--first-color);
-    padding: .25rem;
-    border-radius: .25rem;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
     display: flex;
     font-size: 1rem;
-    transition: .4s;
+    transition: 0.4s;
 }
 
 .home_social-link:hover{
@@ -342,10 +339,10 @@ padding-bottom: 45px;
     display: inline-block;
     background-color: var(--first-color);
     color: var(--body-color);
-    padding: .75rem 1rem;
-    border-radius: .5rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
     font-weight: var(--font-medium);
-    transition: .4s;
+    transition: 0.4s;
 }
 
 .button:hover{
@@ -454,6 +451,34 @@ row-gap: 1rem;
 }
 
 /*=============== SERVICES ===============*/
+.services_container{
+    row-gap: 2rem;
+    padding-top: 1rem;
+}
+.serveices_card{
+    background-color: var(--container-color);
+    border-radius: 1rem;
+}
+.serveices_title{
+    font-size: var(--h3-font-size);
+    margin-bottom: 2.5rem;
+}
+.serveices_button{
+    color: var(--first-color);
+    font-size: var(--small-font-size);
+    display: flex;
+    align-items: center;
+    column-gap: 0.25rem;
+    cursor: pointer;
+}
+button{
+    transform: translateX(0.25rem);
+}
+.serveices_icon{
+    font-size: 1rem;
+    transition: 0.4s;
+}
+
 
 
 /* Services modal */
