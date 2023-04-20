@@ -258,22 +258,24 @@ font-size: var(--biggest-font-size);
 
 .home_img{
 width: 350px;
-padding-bottom: 60px;
+padding-bottom: 45px;
 } 
 
 .home_handle{
     justify-self: center;
-    width: 450px;
-    height: 450px; 
+    width: 425px;
+    height: 425px; 
     background:linear-gradient(180deg,
     hsla(var(--first-hue), var(--sat), var(--lig),1),
     hsla(var(--first-hue), var(--sat), var(--lig), .2)
     );
-    border-radius: 450px;
+    border-radius: 425px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
     overflow: hidden;
+    position:relative;
+
     }
 
 .home_buttons{
@@ -649,6 +651,7 @@ color: var(--body-color);
     .home_img{
     width: 290px;
     }  */
+
     .home_social-link{
     padding: .4rem;
     font-size: 1.25rem;
