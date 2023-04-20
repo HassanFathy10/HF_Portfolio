@@ -383,7 +383,7 @@ padding-bottom: 45px;
 
 .about_box{
     background-color: var(--container-color);
-    border-radius: 0.75rem;
+    border-radius: 5rem;
     padding: 0.75rem;
 }
 
@@ -433,7 +433,6 @@ padding-bottom: 45px;
 .skills_box{
     display: flex;
     justify-content: center;
-    column-gap: 2.5rem;
 }
 .skills_group{
 display: grid;
@@ -442,7 +441,7 @@ row-gap: 1rem;
 }
 .skills_data{
     display: flex;
-    column-gap: .5rem;
+    column-gap: 0.5rem;
 }
 .skills .bxs-checkbox-checked{
     font-size: 1rem;
@@ -677,13 +676,6 @@ color: var(--body-color);
 .nav {
     height: calc(var(--header-height) + 1rem);
 }
-    /* .home_handle{
-    width: 290px;
-    height: 370px;
-    }
-    .home_img{
-    width: 290px;
-    }  */
 
     .home_social-link{
     padding: .4rem;
