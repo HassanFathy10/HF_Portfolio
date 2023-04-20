@@ -174,14 +174,17 @@ the website, in light theme
     justify-content: space-between;
     align-items: center;
 }
+
 .nav_logo {
     color: var(--first-color);
     font-weight: var(--font-medium);
     transition: .4s;
 }
+
 .nav_logo:hover{
     color: var(--first-color-alt);
-    }
+}
+
 .nav_menu{
     position: fixed;
     bottom: 1rem;
@@ -191,12 +194,14 @@ the website, in light theme
     border-radius: 4rem;
     padding: 1rem 2.25rem ;
     backdrop-filter: blur(10px);
-} 
+}
+
 .nav_list {
     display: flex;
     justify-content: space-between;
     align-items: center; 
 }
+
 .nav_link{
     color: var(--text-color);
     font-size: 1.25rem;
