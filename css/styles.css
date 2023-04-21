@@ -557,6 +557,7 @@ row-gap: 1rem;
 
 /*=============== WORK ===============*/
 .work_container{
+    grid-template-columns: repeat(3, 1fr);
     padding-top: 1rem;
 }
 
@@ -765,6 +766,9 @@ color: var(--body-color);
     } 
 }
 @media screen and (max-width: 320px){
+    .nav_menu i{
+        font-size: 1rem;
+    }
     .button{
         width: 100px;
         font-size: 0.8rem;
@@ -784,6 +788,9 @@ color: var(--body-color);
     }
 
     @media screen and (max-width: 250px){
+        .nav_menu i{
+            font-size: 0.9rem;
+        }
         .button{
             width: 80px;
             font-size: 0.6rem;
