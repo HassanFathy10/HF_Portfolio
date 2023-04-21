@@ -722,9 +722,12 @@ color: var(--body-color);
         width: 210px;
         padding-bottom: 19px;
         } 
+        body{
+            font-size: small;
+        }
     }
 
-    @media screen and (max-width: 255px){
+    @media screen and (max-width: 250px){
         .button{
             width: 80px;
             font-size: 0.6rem;
@@ -737,6 +740,9 @@ color: var(--body-color);
             width: 160px;
             padding-bottom: 12px;
             } 
+        body{
+            font-size: 0.5rem;
+        }
         }
 
 /* For medium devices */
