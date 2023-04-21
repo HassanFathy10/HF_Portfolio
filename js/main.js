@@ -48,6 +48,7 @@ const linkWork = document.querySelectorAll(".work_item")
         this.classList.add("active-work")
     
     }
+    
 linkWork.forEach(l=> l.addEventListener("click", activeWork))
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll('section[id]')
