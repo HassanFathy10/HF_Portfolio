@@ -695,11 +695,49 @@ color: var(--body-color);
     text-align: center;
     font-size: var(--smaller-font-size);
 }
-/*=============== SCROLL BAR ===============*/
-
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 450px){
+.home_handle{
+    width: 290px;
+    height: 290px;
+    }
+.home_img{
+    width: 250px;
+    padding-bottom: 25px;
+    } 
+}
+@media screen and (max-width: 320px){
+    .button{
+        width: 100px;
+        font-size: 0.8rem;
+    }
+
+    .home_handle{
+        width: 240px;
+        height: 240px;
+        }
+    .home_img{
+        width: 210px;
+        padding-bottom: 19px;
+        } 
+    }
+
+    @media screen and (max-width: 255px){
+        .button{
+            width: 80px;
+            font-size: 0.6rem;
+        }
+        .home_handle{
+            width: 180px;
+            height: 180px;
+            }
+        .home_img{
+            width: 160px;
+            padding-bottom: 12px;
+            } 
+        }
 
 /* For medium devices */
 @media screen and (min-width: 576px){
@@ -709,6 +747,7 @@ color: var(--body-color);
     right: 0;
     margin: 0 auto;
 }
+
 .about_info{
     grid-template-columns: repeat (3, 140px);
     justify-content: center;
@@ -764,11 +803,11 @@ color: var(--body-color);
     height: calc(var(--header-height) + 1rem);
 }
 
-    .home_social-link{
+.home_social-link{
     padding: .4rem;
     font-size: 1.25rem;
-    } 
-    .home_social::after{
+} 
+.home_social::after{
     transform: rotate (90deg) translate (16px, 0);
 }
 
