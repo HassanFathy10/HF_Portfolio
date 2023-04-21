@@ -43,6 +43,11 @@
                     </a>
                 </li>
                 <li class="nav_item">
+                    <a href="#services" class="nav_link">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </a>
+                </li>
+                <li class="nav_item">
                     <a href="#work" class="nav_link">
                         <i class="fa-solid fa-laptop-code"></i>
                     </a>
@@ -233,7 +238,31 @@
             </section>
             <!--=============== WORK ===============-->
             <section class="work section" id="work">
-                
+                <span class="section_subtitle">My Portfolio</span>
+                <h2 class="section_title">Recent Works</h2>
+                <div class="work_filters">
+                    <span class="work_item active-work" data-filter="all">All</span>
+                    <span class="work_item" data-filter=".web">Web</span>
+                    <span class="work_item" data-filter=".design">Design</span>
+                    <span class="work_item" data-filter=".api">API</span>
+                </div>
+                <div class="work_container container grid">
+                    <div class="work_card mix web">
+                        <img src="images/work1.jpg" alt="" class="work_img">
+                        <h3 class="work_title">Web Design</h3>
+                        <a href="#" class="work_button">See more <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="work_card mix design">
+                        <img src="images/work2.jpg" alt="" class="work_img">
+                        <h3 class="work_title">API App</h3>
+                        <a href="#" class="work_button">See more <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="work_card mix api">
+                        <img src="" alt="images/work3.jpg" class="work_img">
+                        <h3 class="work_title">Brand Design</h3>
+                        <a href="#" class="work_button">See more <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
             </section>
             <!--=============== CONTACT ===============-->
             <section class="contact section" id="contact">
@@ -312,6 +341,10 @@
             </footer>
     <!--==================== SCROLLREVEAL ====================-->
     <script src="js/scrollreveal.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="js/mixitup.min.js"></script>
+
     <!-- Main.js -->
     <script src="js/main.js"></script>
 </body>

@@ -31,14 +31,24 @@ modelClose.forEach((mc) => {
 })
 
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
-
+let mixerPortfolio = mixitup(".work_container", {
+    selectors: {
+        target: '.work_card'
+    },
+    animation: {
+        duration: 300
+    }
+});
 
 /* Link active work */ 
+const linkWork = document.querySelectorAll(".work_item")
 
-
-/*=============== SWIPER TESTIMONIAL ===============*/
-
-
+    function activeWork(){
+        linkWork.forEach((l) => l.classList.remove("active-work"))
+        this.classList.add("active-work")
+    
+    }
+linkWork.forEach(l=> l.addEventListener("click", activeWork))
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll('section[id]')
 const scrollActive = () =>{
