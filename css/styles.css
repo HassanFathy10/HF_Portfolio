@@ -560,7 +560,6 @@ row-gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
     padding-top: 1rem;
 }
-
 .work_filters{
     display: flex;
     justify-content: center;
@@ -583,6 +582,10 @@ row-gap: 1rem;
     border-radius: 1rem;
 }
 
+.work_card a{
+    margin-bottom: 10px;
+}
+
 .work_img{
     border-radius: 1rem;
     margin-bottom: 0.75rem;
@@ -591,7 +594,7 @@ row-gap: 1rem;
 .work_title{
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    margin-bottom: 0.25rem;
+    margin-bottom: 1rem;
 }
 
 .work_button{
