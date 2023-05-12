@@ -628,7 +628,7 @@ row-gap: 1rem;
 }
 .contact_title{
     text-align: center;
-    font-size: var(--h3-font-size);
+    font-size: 1.1rem;
     margin-bottom: 1.5rem;
 } 
 .contact_info{
