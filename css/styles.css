@@ -582,10 +582,6 @@ row-gap: 1rem;
     border-radius: 1rem;
 }
 
-.work_card a{
-    margin-bottom: 10px;
-}
-
 .work_img{
     border-radius: 1rem;
     margin-bottom: 0.75rem;
@@ -594,7 +590,7 @@ row-gap: 1rem;
 .work_title{
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .work_button{
