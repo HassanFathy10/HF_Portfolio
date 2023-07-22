@@ -585,7 +585,7 @@ row-gap: 1rem;
 
 .work_card:hover {
     transform: scale3d(1.1, 1.1, 0.3);
-    background-color: rgba(22, 207, 207, 0.719);
+    background-color: rgba(22, 207, 207, 0.767);
     .work_title {
         color: black;
         font-weight: bold;
@@ -621,12 +621,8 @@ row-gap: 1rem;
     font-size: var(--small-font-size);
 }
 
-.work_button:hover{
-    font-size: 1.1rem;
-}
-
 .work_button{
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: bold;
     transition: 0.2s;
 }
