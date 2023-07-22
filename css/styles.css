@@ -589,6 +589,7 @@ row-gap: 1rem;
     .work_title {
         color: black;
         font-weight: bold;
+        font-size: 1.2rem;
     }
     .work_button {
         color: rgba(219, 233, 17, 0.945);
