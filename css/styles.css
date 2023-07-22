@@ -580,7 +580,7 @@ row-gap: 1rem;
 .work_card{
     background-color: var(--container-color);
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     transition: 0.4s;
 }
 
