@@ -68,11 +68,7 @@ const scrollY = window.pageYOffset
 		}                                                    
 	})
 }
-window.addEventListener('scroll', scrollActive)
-
-
-/*=============== LIGHT DARK THEME ===============*/ 
-
+window.addEventListener('scroll', scrollActive);
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
@@ -85,3 +81,16 @@ const sr = ScrollReveal({
 sr.reveal(`.home_data`)
 sr.reveal(`.home_handle`, {delay: 700})
 sr.reveal (`.home_social ,.home_scroll`, {delay: 900, origin:'bottom'})
+
+
+/*=============== Contact ===============*/
+function sendEmail() {
+    const form = {
+        from_name: document.getElementById("name").value,
+        email_id: document.getElementById("email").value,
+        message: document.getElementById("message").value
+    }
+    emailjs.send("service_7sj10qs", "template_zxk2qei", form).then(() => {
+        alert("Your Email has been Sent Successfully!");
+    })
+};

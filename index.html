@@ -343,18 +343,18 @@
                             <h3 class="contact_title">Write me your project</h3>
                             <form action="" class="contact_form">
                                 <div class="contact_form-div">
-                                    <label for="" class="contact_form-tag" >Name</label>
-                                    <input type="text" class="contact_form-input" placeholder="Insert your name">
+                                    <label for="text" class="contact_form-tag" >Name</label>
+                                    <input type="text" id="name" class="contact_form-input" placeholder="Insert your name">
                                 </div>
                                 <div class="contact_form-div">
-                                    <label for="mail" class="contact_form-tag">Email</label>
-                                    <input type="text" class="contact_form-input" placeholder="Insert your email">
+                                    <label for="email" class="contact_form-tag">Email</label>
+                                    <input type="email" id="email" class="contact_form-input" placeholder="Insert your email">
                                 </div>
                                 <div class="contact_form-div contact_form-area">
-                                    <label for="" class="contact_form-tag ">Project</label>
-                                    <textarea name="" id="" cols="30" rows="10" class="contact_form-input" placeholder="Send me your requirements"></textarea>
+                                    <label for="project" class="contact_form-tag ">Project</label>
+                                    <textarea name="project" id="message" cols="30" rows="10" class="contact_form-input" placeholder="Send me your requirements"></textarea>
                                 </div>
-                                <button class="button">Send Message</button>
+                                <button class="button" onclick={sendEmail()}>Send Message</button>
                             </form>
                         </div>
             </section>
@@ -394,5 +394,13 @@
 
     <!-- Main.js -->
     <script src="js/main.js"></script>
+
+    <!-- Email.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function sendEmail(){
+            emailjs.init("rrQaNjRiyUKx-SONm");
+        })();
+    </script>
 </body>
 </html>
