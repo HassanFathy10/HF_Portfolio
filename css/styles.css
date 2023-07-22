@@ -421,7 +421,7 @@ padding-bottom: 45px;
     border-radius: 1.25rem;
 }
 .skills_title{
-    font-size: var(--normal-font-size);
+    font-size: 1.2rem;
     font-weight: var(--font-medium);
     color: var(--first-color);
     text-align: center; 
@@ -430,6 +430,7 @@ padding-bottom: 45px;
 .skills_box{
     display: flex;
     justify-content: center;
+    gap: 100px;
 }
 .skills_group{
 display: grid;
@@ -587,7 +588,7 @@ row-gap: 1rem;
     transform: scale3d(1.1, 1.1, 0.3);
     background-color: rgba(22, 207, 207, 0.801);
     .work_title {
-        color: black;
+        color: #493b3b;
         font-weight: bold;
         font-size: 1.2rem;
     }
