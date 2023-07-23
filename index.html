@@ -11,10 +11,8 @@
     <meta property="og:url" content="https://hassanfathy10.github.io/HF_Portfolio/">
     <!--=============== FAV-ICON ===============-->
     <link rel="shortcut icon" href="images/02.png" type="image/x-icon">
-
     <!--=============== Font Awesome ===============-->
     <link rel="stylesheet" href="css/all.min.css">
-
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="css/styles.css">
     <!-- Title -->
@@ -350,12 +348,16 @@
                                     <label for="email" class="contact_form-tag">Email</label>
                                     <input type="email" id="email" class="contact_form-input" placeholder="Insert your email">
                                 </div>
-                                <div class="contact_form-div contact_form-area">
-                                    <label for="project" class="contact_form-tag ">Project</label>
-                                    <textarea name="project" id="message" cols="30" rows="10" class="contact_form-input" placeholder="Send me your requirements"></textarea>
+                                <div class="contact_form-div">
+                                    <label for="text" class="contact_form-tag">Subject</label>
+                                    <input type="text" id="subject" class="contact_form-input" placeholder="Subject">
                                 </div>
-                                <button class="button" onclick={sendEmail()}>Send Message</button>
+                                <div class="contact_form-div contact_form-area">
+                                    <label for="message" class="contact_form-tag ">Project</label>
+                                    <textarea  id="message" cols="30" rows="10" class="contact_form-input" placeholder="Send me your requirements"></textarea>
+                                </div>
                             </form>
+                            <button class="button" onclick="sendEmail()">Send Message</button>
                         </div>
             </section>
         </main>
@@ -388,17 +390,14 @@
             </footer>
     <!--==================== SCROLLREVEAL ====================-->
     <script src="js/scrollreveal.min.js"></script>
-
     <!--=============== MIXITUP FILTER ===============-->
     <script src="js/mixitup.min.js"></script>
-
     <!-- Main.js -->
     <script src="js/main.js"></script>
-
     <!-- Email.js -->
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script>
-        (function sendEmail(){
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
             emailjs.init("rrQaNjRiyUKx-SONm");
         })();
     </script>

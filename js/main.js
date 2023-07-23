@@ -87,10 +87,12 @@ sr.reveal (`.home_social ,.home_scroll`, {delay: 900, origin:'bottom'})
 function sendEmail() {
     const form = {
         from_name: document.getElementById("name").value,
-        email_id: document.getElementById("email").value,
+        email: document.getElementById("email").value,
+        subject: document.getElementById("subject").value,
         message: document.getElementById("message").value
     }
     emailjs.send("service_7sj10qs", "template_zxk2qei", form).then(() => {
         alert("Your Email has been Sent Successfully!");
     })
+        .catch(err => console.log(err));
 };
