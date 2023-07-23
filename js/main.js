@@ -94,5 +94,5 @@ function sendEmail() {
     emailjs.send("service_7sj10qs", "template_zxk2qei", form).then(() => {
         alert("Your Email has been Sent Successfully!");
     })
-        .catch(err => console.log(err));
+    .catch(err => console.log(err));
 };
