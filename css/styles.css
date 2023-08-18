@@ -666,10 +666,14 @@ row-gap: 1rem;
 }
 .contact_card-title{
     font-weight: var(--font-medium);
+    margin-bottom: 3px;
 }
 .contact_card-data{
     display: block; 
-    margin-bottom: .75rem;
+    margin-bottom: 1px;
+}
+.number{
+    letter-spacing: 0px;
 }
 .contact_button{
     color: var(--first-color);
