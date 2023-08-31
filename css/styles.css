@@ -175,7 +175,8 @@ the website, in light theme
 
 .nav_logo {
     color: var(--first-color);
-    font-weight: var(--font-medium);
+    font-size: larger;
+    font-weight: bolder;
     transition: .4s;
 }
 
@@ -341,7 +342,7 @@ padding-bottom: 45px;
     color: var(--body-color);
     padding: 0.75rem 1rem;
     border-radius: 0.5rem;
-    font-weight: var(--font-medium);
+    font-weight: bolder;
     transition: 0.4s;
 }
 
@@ -594,6 +595,10 @@ row-gap: 1rem;
     }
     .work_button {
         color: rgba(219, 233, 17, 0.945);
+        background-color: rgb(0, 0, 0);
+    }
+    .work_button:hover {
+        background-color: rgba(107, 51, 145, 0.377);
     }
 }
 
@@ -623,9 +628,13 @@ row-gap: 1rem;
 }
 
 .work_button{
-    font-size: 1rem;
-    font-weight: bold;
-    transition: 0.2s;
+    display: inline-block;
+    background-color: var(--first-color);
+    color: black;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bolder;
+    transition: 0.4s;
 }
 
 /* Active item work*/
