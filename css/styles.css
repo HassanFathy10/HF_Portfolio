@@ -422,7 +422,7 @@ padding-bottom: 45px;
     border-radius: 1.25rem;
 }
 .skills_title{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: var(--font-medium);
     color: var(--first-color);
     text-align: center; 
@@ -441,6 +441,9 @@ row-gap: 1rem;
 .skills_data{
     display: flex;
     column-gap: 0.5rem;
+}
+.skills_data h3 {
+    font-size: 1.1rem;
 }
 .skills .bxs-checkbox-checked{
     font-size: 1rem;
