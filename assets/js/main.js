@@ -91,8 +91,8 @@ function sendEmail() {
         subject: document.getElementById("subject").value,
         message: document.getElementById("message").value
     }
-    emailjs.send("service_7sj10qs", "template_zxk2qei", form).then(() => {
+    emailjs.sendForm("service_37058ff", "template_0z3h30a", 'form').then(() => {
         alert("Your Email has been Sent Successfully!");
     })
-    .catch(err => console.log(err));
+    .catch(() => alert("Your Email has failed!"));
 };
