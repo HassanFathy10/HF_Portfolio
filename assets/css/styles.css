@@ -590,18 +590,22 @@ row-gap: 1rem;
 
 .work_card:hover {
     transform: scale3d(1.1, 1.1, 0.3);
-    background-color: rgba(22, 207, 207, 0.801);
+    background-color: rgb(22, 207, 207);
     .work_title {
         color: #352f2f;
         font-weight: bold;
         font-size: 1.2rem;
     }
     .work_button {
-        color: rgba(219, 233, 17, 0.945);
-        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.842);
     }
-    .work_button:hover {
-        background-color: rgba(107, 51, 145, 0.377);
+    .work_button .fa-link {
+        font-size: 25px;
+        color: rgb(250, 17, 250);
+    }
+    .work_button .fa-github {
+        font-size: 25px;
+        color: rgb(255, 255, 255);
     }
 }
 
@@ -634,12 +638,13 @@ row-gap: 1rem;
     display: inline-block;
     background-color: var(--first-color);
     color: black;
-    padding: 0.75rem 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     font-weight: bolder;
     transition: 0.4s;
+    font-weight: bolder;
+    font-size: 25px;
 }
-
 /* Active item work*/
 .active-work{
     background-color: var(--first-color);
