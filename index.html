@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,437 +17,493 @@
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="./assets/css/styles.css">
     <!-- Title -->
-c</head>
+    c
+</head>
+
 <body>
     <!--=============== HEADER ===============-->
-<header class="header" id="header">
-    <nav class="nav container">
-        <a href="#" class="nav_logo">Hassan Fathy</a>
-        <article class="nav_menu">
-            <ul class="nav_list">
-                <li class="nav_item">
-                    <a href="#home" class="nav_link active-link" aria-label="Link to Home section">
-                        <i class="fa-solid fa-house"></i>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">Hassan Fathy</a>
+            <article class="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link" aria-label="Link to Home section">
+                            <i class="fa-solid fa-house"></i>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link" aria-label="Link to about section">
+                            <i class="fa-solid fa-user"></i>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link" aria-label="Link to skills section">
+                            <i class="fa-solid fa-book"></i>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#services" class="nav_link" aria-label="Link to services section">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#work" class="nav_link" aria-label="Link to work section">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link" aria-label="Link to contact section">
+                            <i class="fa-solid fa-message"></i>
+                        </a>
+                    </li>
+                </ul>
+            </article>
+            <!-- THEME CHANGE BUTTON -->
+            <!-- <i class="fa-regular fa-moon" style="color: #bffdfa;"></i> -->
+        </nav>
+    </header>
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <article class="home_container container grid">
+                <article class="home_data">
+                    <span class="home_greeting">Hello, I'm</span>
+                    <h1 class="home_name">Hassan Fathy</h1>
+                    <p class="home_education">Front End Developer</p>
+                    <article class="home_buttons">
+                        <a download="" href="./assets/cv/Hassan Fathy CV.pdf" class="button button--ghost">
+                            Download CV
+                        </a>
+                        <a href="#about" class="button">About me</a>
+                    </article>
+                </article>
+                <article class="home_handle">
+                    <img src="./assets/images/HF-01.png" alt="" class="home_img">
+                </article>
+                <article class="home_social">
+                    <a href="https://stackoverflow.com/users/21888829/hassan-fathy" class="home_social-link"
+                        target="_blank" rel="noopener no-referrer" aria-label="Link to Github">
+                        <i class="fa-brands fa-stack-overflow fa-beat"></i>
                     </a>
+                    <a href="https://github.com/HassanFathy10" class="home_social-link" target="_blank"
+                        rel="noopener no-referrer" aria-label="Link to Github">
+                        <i class="fa-brands fa-github fa-beat"></i>
+                    </a>
+                    <a href="www.linkedin.com/in/hassanfathy" class="home_social-link" target="_blank"
+                        rel="noopener no-referrer" aria-label="Link to Linkedin">
+                        <i class="fa-brands fa-linkedin fa-beat"></i>
+                    </a>
+                </article>
+                <a href="#about" class="home_scroll">
+                    <i class="fa-solid fa-computer-mouse fa-bounce"></i>
+                    <span class="home_scroll-name">Scroll Down</span>
+                </a>
+            </article>
+        </section>
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section_subtitle">My Intro</span>
+            <h2 class="section_title">About Me</h2>
+            <article class="about_container container grid">
+                <img src="./assets/images/02.png" alt="" class="about_img">
+                <article class="about_data">
+                    <article class="about_info">
+                        <article class="about_box">
+                            <i class="fa-solid fa-award fa-beat about_icon" style="color: #4e15a2;"></i>
+                            <h3 class="about_title">Certificate</h3>
+                            <span class="about_subtitle">Udacity <a
+                                    href="https://www.udacity.com/certificate/e/bc38f7d4-8a9c-11ed-9566-7b0673a15585"
+                                    target="_blank" rel="noopener no-referrer"
+                                    class="link">Certificate-Link</a></span><br>
+                        </article>
+                        <div class="about_box">
+                            <i class="fa-solid fa-briefcase fa-shake about_icon" style="color: #4e15a2;"></i>
+                            <h3 class="about_title">Support</h3>
+                            <span class="about_subtitle">Online 24/7</span>
+                        </div>
+                    </article>
+                    <p class="about_description">
+                        Dedicated Front-End Developer with a passion for crafting visually appealing and user-friendly
+                        web experiences. Proficient in HTML5, CSS3, JavaScript, and modern front-end frameworks like
+                        React. Adept at translating design concepts into pixel-perfect, responsive web applications.
+                        Fast learner with a passion for staying updated on the latest front-end technologies and best
+                        practices. Collaborative team player with a strong commitment to contributing to the success of
+                        projects. Seeking opportunities to apply and expand technical skills while working alongside
+                        experienced developers and designers.
+                    </p>
+                    <a href="#contact" class="button">Contact Me</a>
+                </article>
+            </article>
+        </section>
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section_subtitle">My abilities</span>
+            <h2 class="section_title">My Skills</h2>
+            <article class="skills_container container">
+                <article class="skills_content">
+                    <h3 class="skills_title">Frontend Developer</h3>
+                    <article class="skills_box">
+                        <article class="skills_group">
+                            <!-- 1 skill -->
+                            <article class="skills_data">
+                                <br><i class="fa-solid fa-circle-check" style="color: #bffdfa;"></i>
+                                <article>
+                                    <h3 class="skills_name">HTML5 <i class="fa-brands fa-html5"></i></h3>
+                                </article>
+                            </article>
+                            <!-- 2 skill -->
+                            <article class="skills_data">
+                                <br><i class="fa-solid fa-circle-check" style="color: #bffdfa;"></i>
+                                <article>
+                                    <h3 class="skills_name">CSS3 <i class="fa-brands fa-css3-alt"></i></h3>
+                                </article>
+                            </article>
+                            <!-- 3 skill -->
+                            <article class="skills_data">
+                                <br><i class="fa-solid fa-circle-check" style="color: #bffdfa;"></i>
+                                <article>
+                                    <h3 class="skills_name">Bootstrap <i class="fa-brands fa-bootstrap"></i></h3>
+                                </article>
+                            </article>
+                            <!-- 4 skill -->
+                            <article class="skills_data">
+                                <br><i class="fa-solid fa-circle-check" style="color: #bffdfa;"></i>
+                                <article>
+                                    <h3 class="skills_name">JavaScript ES6 <i class="fa-brands fa-square-js"></i></h3>
+                                </article>
+                            </article>
+                            <!-- 5 skill -->
+                            <article class="skills_data">
+                                <br><i class="fa-solid fa-circle-check" style="color: #bffdfa;"></i>
+                                <article>
+                                    <h3 class="skills_name">TypeScript</h3>
+                                </article>
+                            </article>
+                        </article>
+                        <article class="skills_group">
+                            <!-- 6 skill -->
+                            <article class="skills_data">
+                                <br><i class="fa-solid fa-circle-check" style="color: #bffdfa;"></i>
+                                <article>
+                                    <h3 class="skills_name">React.js <i class="fa-brands fa-react"></i></h3>
+                                    </a>
+                                </article>
+                            </article>
+                            <!-- 7 skill -->
+                            <article class="skills_data">
+                                <br><i class="fa-solid fa-circle-check" style="color: #bffdfa;"></i>
+                                <article>
+                                    <h3 class="skills_name">Redux Toolkit <i class="fa-brands fa-react"></i></h3>
+                                </article>
+                            </article>
+                            <!-- 8 skill -->
+                            <article class="skills_data">
+                                <br><i class="fa-solid fa-circle-check" style="color: #bffdfa;"></i>
+                                <article>
+                                    <h3 class="skills_name">Node.js <i class="fa-brands fa-node"></i></h3>
+                                </article>
+                            </article>
+                            <!-- 9 skill -->
+                            <article class="skills_data">
+                                <br><i class="fa-solid fa-circle-check" style="color: #bffdfa;"></i>
+                                <article>
+                                    <h3 class="skills_name">Web APIs</h3>
+                                </article>
+                            </article>
+                        </article>
+                    </article>
+                </article>
+            </article>
+        </section>
+        <!-- Services -->
+        <section class="services section" id="services">
+            <span class="section_subtitle">My Services</span>
+            <h2 class="section_title">What I Offer</h2>
+            <article class="services_container container grid">
+                <article class="services_card">
+                    <h3 class="services_title">Responsive Websites</h3>
+                    <span class="services_button">
+                        See more <i class="fa-solid fa-arrow-right services_icon" style="color: #bffdfa;"></i>
+                    </span>
+                    <article class="services_model">
+                        <article class="services_model-content">
+                            <i class="fa-solid fa-x services_model-close"></i>
+                            <h3 class="services_model-title">Responsive Websites</h3>
+                            <p class="services_model-description">
+                                Front-End Developer with a passion for learning new technologies ,building and
+                                maintaining responsive websites.
+                            </p>
+                            <ul class="services_model-list">
+                                <li class="services_model-item">
+                                    <i class="fa-solid fa-check servrice_model-icon"></i>
+                                    <p class="services_model-info">
+                                        Developing and maintaining the user interface.
+                                    </p>
+                                </li>
+                                <li class="services_model-item">
+                                    <i class="fa-solid fa-check servrice_model-icon"></i>
+                                    <p class="services_model-info">
+                                        Following SEO best practices.
+                                    </p>
+                                </li>
+                                <li class="services_model-item">
+                                    <i class="fa-solid fa-check servrice_model-icon"></i>
+                                    <p class="services_model-info">
+                                        Optimizing the user experience.
+                                    </p>
+                                </li>
+                                <li class="services_model-item">
+                                    <i class="fa-solid fa-check servrice_model-icon"></i>
+                                    <p class="services_model-info">
+                                        Web performance optimization.
+                                    </p>
+                                </li>
+                                <li class="services_model-item">
+                                    <i class="fa-solid fa-check servrice_model-icon"></i>
+                                    <p class="services_model-info">
+                                        Creativity.
+                                    </p>
+                                </li>
+                            </ul>
+                        </article>
+                    </article>
+                </article>
+            </article>
+        </section>
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section_subtitle">My Portfolio</span>
+            <h2 class="section_title">Recent Works</h2>
+            <article class="work_filters">
+                <span class="work_item active-work" data-filter="all">All</span>
+                <span class="work_item" data-filter=".web">Design</span>
+                <span class="work_item" data-filter=".react">React</span>
+                <span class="work_item" data-filter=".api">API</span>
+            </article>
+            <article class="work_container container grid">
+                <article class="work_card mix react">
+                    <img src="./assets/images/Work-11.png" alt="" class="work_img">
+                    <h3 class="work_title">Education Platform</h3>
+                    <article class="work_buttons">
+                        <a href="https://mohamedyousef.com/" class="work_button" target="_blank"
+                            rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
+                        <a href="" class="work_button" target="_blank" rel="noopener no-referrer"><i
+                                class="fa-brands fa-github"></i></a>
+                    </article>
+                </article>
+                <article class="work_card mix react">
+                    <img src="./assets/images/Work-01.png" alt="" class="work_img">
+                    <h3 class="work_title">E-Commerce-App</h3>
+                    <article class="work_buttons">
+                        <a href="https://hassanfathy-ecommerce.vercel.app/" class="work_button" target="_blank"
+                            rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
+                        <a href="" class="work_button" target="_blank" rel="noopener no-referrer"><i
+                                class="fa-brands fa-github"></i></a>
+                    </article>
+                </article>
+                <article class="work_card mix react">
+                    <img src="./assets/images/Work-7.png" alt="" class="work_img">
+                    <h3 class="work_title">Dashboard App</h3>
+                    <article class="work_buttons">
+                        <a href="https://dashboard-hassan-fathy.vercel.app/" class="work_button" target="_blank"
+                            rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
+                        <a href="https://github.com/HassanFathy10/Dashboard-App" class="work_button" target="_blank"
+                            rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
+                    </article>
+                </article>
+                <article class="work_card mix react">
+                    <img src="./assets/images/Work-8.png" alt="" class="work_img">
+                    <h3 class="work_title">ApplicationForm App</h3>
+                    <article class="work_buttons">
+                        <a href="https://applicationform-hassan-fathy-app.vercel.app/" class="work_button"
+                            target="_blank" rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
+                        <a href="https://github.com/HassanFathy10/ApplicationForm-App" class="work_button"
+                            target="_blank" rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
+                    </article>
+                </article>
+                <article class="work_card mix web">
+                    <img src="./assets/images/Work-04.png" alt="" class="work_img">
+                    <h3 class="work_title">HF_Watches Store</h3>
+                    <article class="work_buttons">
+                        <a href="https://hassanfathy-watches-store.vercel.app/" class="work_button" target="_blank"
+                            rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
+                        <a href="https://github.com/HassanFathy10/HF_Watches_Store.git" class="work_button"
+                            target="_blank" rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
+                    </article>
+                </article>
+                <article class="work_card mix web">
+                    <img src="./assets/images/Work-02.png" alt="" class="work_img">
+                    <h3 class="work_title">HF_Bondi LandingPage</h3>
+                    <article class="work_buttons">
+                        <a href="https://bondi-landing-page-hassanfathy.vercel.app/" class="work_button" target="_blank"
+                            rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
+                        <a href="https://github.com/HassanFathy10/Bondi_LandingPage.git" class="work_button"
+                            target="_blank" rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
+                    </article>
+                </article>
+                <article class="work_card mix web">
+                    <img src="./assets/images/Work-06.png" alt="" class="work_img">
+                    <h3 class="work_title">Kafiil Website</h3>
+                    <article class="work_buttons">
+                        <a href="https://hassanfathy-kafiil-task.vercel.app/" class="work_button" target="_blank"
+                            rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
+                        <a href="https://github.com/HassanFathy10/Kafiil-Task" class="work_button" target="_blank"
+                            rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
+                    </article>
+                </article>
+                <article class="work_card mix web">
+                    <img src="./assets/images/Work-03.png" alt="" class="work_img">
+                    <h3 class="work_title">HF_TalentPage</h3>
+                    <article class="work_buttons">
+                        <a href="https://talent-hassan-fathy.vercel.app/" class="work_button" target="_blank"
+                            rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
+                        <a href="https://github.com/HassanFathy10/HF_talentPage" class="work_button" target="_blank"
+                            rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
+                    </article>
+                </article>
+                <article class="work_card mix web">
+                    <img src="./assets/images/Work-05.jpg" alt="" class="work_img">
+                    <h3 class="work_title">Old Portfolio</h3>
+                    <article class="work_buttons">
+                        <a href=" https://hassanfathy10.github.io/Old-Portfolio/" class="work_button" target="_blank"
+                            rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
+                        <a href="https://github.com/HassanFathy10/Old-Portfolio" class="work_button" target="_blank"
+                            rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
+                    </article>
+                </article>
+                <article class="work_card mix react">
+                    <img src="./assets/images/Work-10.jpg" alt="" class="work_img">
+                    <h3 class="work_title">Wikipedia App</h3>
+                    <article class="work_buttons">
+                        <a href="https://wiki-app-hassanfathy.vercel.app/" class="work_button" target="_blank"
+                            rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
+                        <a href="https://github.com/HassanFathy10/Wiki-App.git" class="work_button" target="_blank"
+                            rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
+                    </article>
+                </article>
+                <article class="work_card mix react">
+                    <img src="./assets/images/React.png" alt="" class="work_img">
+                    <h3 class="work_title">Todo List App</h3>
+                    <article class="work_buttons">
+                        <a href="https://todo-list-app-hassanfathy.vercel.app/" class="work_button" target="_blank"
+                            rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
+                        <a href="https://github.com/HassanFathy10/Todo-List-App.git" class="work_button" target="_blank"
+                            rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
+                    </article>
+                </article>
+                <article class="work_card mix react">
+                    <img src="./assets/images/React.png" alt="" class="work_img">
+                    <h3 class="work_title">Book Store App</h3>
+                    <article class="work_buttons">
+                        <a href="https://book-store-app-hassanfathy.vercel.app/" class="work_button" target="_blank"
+                            rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
+                        <a href="https://github.com/HassanFathy10/Book-StoreApp" class="work_button" target="_blank"
+                            rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
+                    </article>
+                </article>
+            </article>
+        </section>
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <span class="section_subtitle">Get in touch</span>
+            <h2 class="section_title">Contact Me</h2>
+            <article class="contact_container container grid">
+                <article class="contact_content">
+                    <h3 class="contact_title">Talk to me</h3>
+                    <article class="contact_info">
+                        <article class="contact_card">
+                            <i class="fa-solid fa-envelope fa-bounce contact_card-icon"></i>
+                            <h3 class="contact_card-title">Email</h3>
+                            <span class="contact_card-data">Hassanfathy460@gmail.com</span>
+                            <a href="mailto:Hassanfathy460@gmail.com" target="_blank" target="_blank"
+                                rel='noopener noreferrer' class="contact_button">
+                                Write Me <i class="fa-solid fa-arrow-right contact_button-icon"
+                                    style="color: #bffdfa;"></i>
+                            </a>
+                        </article>
+                    </article>
+                    <article class="contact_info">
+                        <article class="contact_card">
+                            <i class="fa-brands fa-whatsapp fa-beat contact_card-icon"></i>
+                            <h3 class="contact_card-title">WhatsApp</h3>
+                            <span class="contact_card-data number">+2&nbsp;0114&nbsp;381&nbsp;4036</span>
+                            <a href="https://api.whatsapp.com/send?phone=+201143814036&text=Hello, more information!"
+                                target="_blank" rel='noopener noreferrer' class="contact_button">
+                                Write Me <i class="fa-solid fa-arrow-right contact_button-icon"
+                                    style="color: #bffdfa;"></i>
+                            </a>
+                        </article>
+                    </article>
+                    <article class="contact_info">
+                        <article class="contact_card">
+                            <i class="fa-solid fa-phone fa-shake contact_card-icon"></i>
+                            <h3 class="contact_card-title">Phone</h3>
+                            <span class="contact_card-data number">+2&nbsp;0114&nbsp;381&nbsp;4036</span>
+                            <a href="tel:+201143814036" target="_blank" rel='noopener noreferrer'
+                                class="contact_button">
+                                Call Me <i class="fa-solid fa-arrow-right contact_button-icon"
+                                    style="color: #bffdfa;"></i>
+                            </a>
+                        </article>
+                    </article>
+                </article>
+                <article class="contact_content">
+                    <h3 class="contact_title">Write me your project</h3>
+                    <form action="" class="contact_form">
+                        <article class="contact_form-div">
+                            <label for="name" class="contact_form-tag">Name</label>
+                            <input type="text" id="name" class="contact_form-input" placeholder="Insert your name">
+                        </article>
+                        <article class="contact_form-div">
+                            <label for="email" class="contact_form-tag">Email</label>
+                            <input type="email" id="email" class="contact_form-input" placeholder="Insert your email">
+                        </article>
+                        <article class="contact_form-div">
+                            <label for="subject" class="contact_form-tag">Subject</label>
+                            <input type="text" id="subject" class="contact_form-input" placeholder="Subject">
+                        </article>
+                        <article class="contact_form-div contact_form-area">
+                            <label for="message" class="contact_form-tag ">Project</label>
+                            <textarea id="message" cols="30" rows="10" class="contact_form-input"
+                                placeholder="Send me your requirements"></textarea>
+                        </article>
+                    </form>
+                    <button class="button" onclick="sendEmail()">Send Message</button>
+                </article>
+            </article>
+        </section>
+    </main>
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <article class="footer_container container">
+            <h1 class="footer_title">Hassan Fathy</h1>
+            <ul class="footer_list">
+                <li>
+                    <a href="#about" class="footer_link">About</a>
                 </li>
-                <li class="nav_item">
-                    <a href="#about" class="nav_link" aria-label="Link to about section">
-                        <i class="fa-solid fa-user"></i>
-                    </a>
-                </li>
-                <li class="nav_item">
-                    <a href="#skills" class="nav_link" aria-label="Link to skills section">
-                        <i class="fa-solid fa-book"></i>
-                    </a>
-                </li>
-                <li class="nav_item">
-                    <a href="#services" class="nav_link" aria-label="Link to services section">
-                        <i class="fa-solid fa-screwdriver-wrench"></i>
-                    </a>
-                </li>
-                <li class="nav_item">
-                    <a href="#work" class="nav_link" aria-label="Link to work section">
-                        <i class="fa-solid fa-laptop-code"></i>
-                    </a>
-                </li>
-                <li class="nav_item">
-                    <a href="#contact" class="nav_link" aria-label="Link to contact section">
-                        <i class="fa-solid fa-message"></i>
-                    </a>
+                <li>
+                    <a href="#work" class="footer_link">Projects</a>
                 </li>
             </ul>
+            <ul class="footer_social">
+                <li>
+                    <a href="https://www.linkedin.com/in/hassan-fathy/" target="_blank" rel="noopener no-referrer"
+                        class="footer_social-link" aria-label="Link to Linkedin">
+                        <i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/HassanFathy10" target="_blank" rel="noopener no-referrer"
+                        class="footer_social-link" aria-label="Link to Github">
+                        <i class="fa-brands fa-github"></i></a>
+                </li>
+            </ul>
+            <span class="footer_copy">
+                &#169; Hassan Fathy. All rigths reserved
+            </span>
         </article>
-    <!-- THEME CHANGE BUTTON -->
-    <!-- <i class="fa-regular fa-moon" style="color: #bffdfa;"></i> -->
-    </nav>
-</header>
-        <!--=============== MAIN ===============-->
-        <main class="main">
-            <!--=============== HOME ===============-->
-            <section class="home section" id="home">
-                <article class="home_container container grid">
-                    <article class="home_data">
-                        <span class="home_greeting">Hello, I'm</span>
-                        <h1 class="home_name">Hassan Fathy</h1>
-                        <p class="home_education">Front End Developer</p>
-                        <article class="home_buttons">
-                            <a download="" href="./assets/cv/Hassan Fathy CV.pdf" class="button button--ghost">
-                            Download CV
-                            </a>
-                            <a href="#about" class="button">About me</a>
-                        </article>
-                    </article>
-                    <article class="home_handle">
-                        <img src="./assets/images/HF-01.png" alt="" class="home_img">
-                    </article>
-                    <article class="home_social">
-                        <a href="https://stackoverflow.com/users/21888829/hassan-fathy" class="home_social-link" target="_blank" rel="noopener no-referrer" aria-label="Link to Github">
-                            <i class="fa-brands fa-stack-overflow fa-beat"></i>
-                        </a>
-                        <a href="https://github.com/HassanFathy10" class="home_social-link" target="_blank" rel="noopener no-referrer" aria-label="Link to Github">
-                            <i class="fa-brands fa-github fa-beat"></i>
-                        </a>
-                        <a href="www.linkedin.com/in/hassanfathy" class="home_social-link" target="_blank" rel="noopener no-referrer" aria-label="Link to Linkedin"> 
-                            <i class="fa-brands fa-linkedin fa-beat"></i>                              
-                        </a>
-                    </article>
-                        <a href="#about" class="home_scroll">
-                            <i class="fa-solid fa-computer-mouse fa-bounce"></i>
-                            <span class="home_scroll-name">Scroll Down</span>
-                        </a>
-                </article>
-            </section>
-            <!--=============== ABOUT ===============-->
-            <section class="about section" id="about">
-                <span class="section_subtitle">My Intro</span>
-                <h2 class="section_title">About Me</h2>
-                <article class="about_container container grid">
-                    <img src="./assets/images/02.png" alt="" class="about_img">
-                    <article class="about_data">
-                        <article class="about_info">
-                            <article class="about_box">
-                                <i class="fa-solid fa-award fa-beat about_icon" style="color: #4e15a2;"></i>
-                                <h3 class="about_title">Certificate</h3>
-                                <span class="about_subtitle">Udacity <a href="https://www.udacity.com/certificate/e/bc38f7d4-8a9c-11ed-9566-7b0673a15585" target="_blank" rel="noopener no-referrer" class="link">Certificate-Link</a></span><br>
-                            </article>
-                                <div class="about_box">
-                                    <i class="fa-solid fa-briefcase fa-shake about_icon" style="color: #4e15a2;"></i>
-                                    <h3 class="about_title">Support</h3>
-                                    <span class="about_subtitle">Online 24/7</span>
-                                </div>
-                        </article>
-                                <p class="about_description">
-                                    Dedicated Front-End Developer with a passion for crafting visually appealing and user-friendly web experiences. Proficient in HTML5, CSS3, JavaScript, and modern front-end frameworks like React. Adept at translating design concepts into pixel-perfect, responsive web applications. Fast learner with a passion for staying updated on the latest front-end technologies and best practices. Collaborative team player with a strong commitment to contributing to the success of projects. Seeking opportunities to apply and expand technical skills while working alongside experienced developers and designers.
-                                </p>
-                            <a href="#contact" class="button">Contact Me</a>
-                    </article>
-                </article>
-            </section>
-            <!--=============== SKILLS ===============-->
-            <section class="skills section" id="skills">
-                <span class="section_subtitle">My abilities</span>
-                <h2 class="section_title">My Skills</h2>
-                <article class="skills_container container">
-                    <article class="skills_content">
-                        <h3 class="skills_title">Frontend Developer</h3> 
-                        <article class="skills_box">
-                            <article class="skills_group">
-                                <!-- 1 skill -->
-                                <article class="skills_data">
-                                    <br><i class="fa-solid fa-circle-check" style="color: #bffdfa;"></i>
-                                    <article>
-                                        <h3 class="skills_name">HTML5 <i class="fa-brands fa-html5"></i></h3>
-                                    </article>
-                                </article>
-                                <!-- 2 skill -->
-                                <article class="skills_data">
-                                    <br><i class="fa-solid fa-circle-check" style="color: #bffdfa;"></i>
-                                    <article>
-                                        <h3 class="skills_name">CSS3 <i class="fa-brands fa-css3-alt"></i></h3>
-                                    </article>
-                                </article>
-                                <!-- 3 skill -->
-                                <article class="skills_data">
-                                    <br><i class="fa-solid fa-circle-check" style="color: #bffdfa;"></i>
-                                    <article>
-                                        <h3 class="skills_name">Bootstrap <i class="fa-brands fa-bootstrap"></i></h3>
-                                    </article>
-                                </article>
-                                <!-- 4 skill -->
-                                <article class="skills_data">
-                                    <br><i class="fa-solid fa-circle-check" style="color: #bffdfa;"></i>
-                                    <article>
-                                        <h3 class="skills_name">JavaScript ES6 <i class="fa-brands fa-square-js"></i></h3>
-                                    </article>
-                                </article>
-                                <!-- 5 skill -->
-                                <article class="skills_data">
-                                    <br><i class="fa-solid fa-circle-check" style="color: #bffdfa;"></i>
-                                    <article>
-                                        <h3 class="skills_name">TypeScript</h3>
-                                    </article>
-                                </article>
-                            </article>
-                            <article class="skills_group">
-                                <!-- 6 skill -->
-                                <article class="skills_data">
-                                    <br><i class="fa-solid fa-circle-check" style="color: #bffdfa;"></i>
-                                    <article>
-                                        <h3 class="skills_name">React.js <i class="fa-brands fa-react"></i></h3>
-                                    </a>
-                                    </article>
-                                </article>
-                                <!-- 7 skill -->
-                                <article class="skills_data">
-                                    <br><i class="fa-solid fa-circle-check" style="color: #bffdfa;"></i>
-                                    <article>
-                                        <h3 class="skills_name">Redux Toolkit <i class="fa-brands fa-react"></i></h3>
-                                    </article>
-                                </article>
-                                <!-- 8 skill -->
-                                <article class="skills_data">
-                                    <br><i class="fa-solid fa-circle-check" style="color: #bffdfa;"></i>
-                                    <article>
-                                        <h3 class="skills_name">Node.js <i class="fa-brands fa-node"></i></h3>
-                                    </article>
-                                </article>
-                                <!-- 9 skill -->
-                                <article class="skills_data">
-                                    <br><i class="fa-solid fa-circle-check" style="color: #bffdfa;"></i>
-                                    <article>
-                                        <h3 class="skills_name">Web APIs</h3>
-                                    </article>
-                                </article>
-                            </article>
-                        </article>
-                    </article>
-                </article>
-            </section>
-            <!-- Services -->
-            <section class="services section" id="services">
-                <span class="section_subtitle">My Services</span>
-                <h2 class="section_title">What I Offer</h2>
-                <article class="services_container container grid">
-                    <article class="services_card">
-                        <h3 class="services_title">Responsive Websites</h3>
-                        <span class="services_button">
-                            See more <i class="fa-solid fa-arrow-right services_icon" style="color: #bffdfa;"></i>
-                        </span>
-                        <article class="services_model">
-                            <article class="services_model-content">
-                                <i class="fa-solid fa-x services_model-close"></i>
-                                <h3 class="services_model-title">Responsive Websites</h3>
-                                <p class="services_model-description">
-                                    Front-End Developer with a passion for learning new technologies ,building and maintaining responsive websites.
-                                </p>
-                                <ul class="services_model-list">
-                                    <li class="services_model-item">
-                                        <i class="fa-solid fa-check servrice_model-icon"></i>
-                                        <p class="services_model-info">
-                                            Developing and maintaining the user interface.
-                                        </p>
-                                    </li>
-                                    <li class="services_model-item">
-                                        <i class="fa-solid fa-check servrice_model-icon"></i>
-                                        <p class="services_model-info">
-                                            Following SEO best practices.
-                                        </p>
-                                    </li>
-                                    <li class="services_model-item">
-                                        <i class="fa-solid fa-check servrice_model-icon"></i>
-                                        <p class="services_model-info">
-                                            Optimizing the user experience.
-                                        </p>
-                                    </li>
-                                    <li class="services_model-item">
-                                        <i class="fa-solid fa-check servrice_model-icon"></i>
-                                        <p class="services_model-info">
-                                            Web performance optimization.
-                                        </p>
-                                    </li>
-                                    <li class="services_model-item">
-                                        <i class="fa-solid fa-check servrice_model-icon"></i>
-                                        <p class="services_model-info">
-                                        Creativity.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </article>
-                        </article>
-                    </article>
-                </article>
-            </section>
-            <!--=============== WORK ===============-->
-            <section class="work section" id="work">
-                <span class="section_subtitle">My Portfolio</span>
-                <h2 class="section_title">Recent Works</h2>
-                <article class="work_filters">
-                    <span class="work_item active-work" data-filter="all">All</span>
-                    <span class="work_item" data-filter=".web">Design</span>
-                    <span class="work_item" data-filter=".react">React</span>
-                    <span class="work_item" data-filter=".api">API</span>
-                </article>
-                <article class="work_container container grid">
-                    <article class="work_card mix react">
-                        <img src="./assets/images/Work-01.png" alt="" class="work_img">
-                        <h3 class="work_title">E-Commerce-App</h3>
-                        <article class="work_buttons">
-                            <a href="https://hassanfathy-ecommerce.vercel.app/" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
-                            <a href="" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
-                        </article>
-                    </article>
-                    <article class="work_card mix react">
-                        <img src="./assets/images/Work-7.png" alt="" class="work_img">
-                        <h3 class="work_title">Dashboard App</h3>
-                        <article class="work_buttons">
-                            <a href="https://dashboard-hassan-fathy.vercel.app/" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
-                            <a href="https://github.com/HassanFathy10/Dashboard-App" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
-                        </article>
-                    </article>
-                    <article class="work_card mix react">
-                        <img src="./assets/images/Work-8.png" alt="" class="work_img">
-                        <h3 class="work_title">ApplicationForm App</h3>
-                        <article class="work_buttons">
-                            <a href="https://applicationform-hassan-fathy-app.vercel.app/" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
-                            <a href="https://github.com/HassanFathy10/ApplicationForm-App" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
-                        </article>
-                    </article>
-                    <article class="work_card mix web">
-                        <img src="./assets/images/Work-04.png" alt="" class="work_img">
-                        <h3 class="work_title">HF_Watches Store</h3>
-                        <article class="work_buttons">
-                            <a href="https://hassanfathy-watches-store.vercel.app/" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
-                            <a href="https://github.com/HassanFathy10/HF_Watches_Store.git" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
-                        </article>
-                    </article>
-                    <article class="work_card mix web">
-                        <img src="./assets/images/Work-02.png" alt="" class="work_img">
-                        <h3 class="work_title">HF_Bondi LandingPage</h3>
-                        <article class="work_buttons">
-                            <a href="https://bondi-landing-page-hassanfathy.vercel.app/" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
-                            <a href="https://github.com/HassanFathy10/Bondi_LandingPage.git" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
-                        </article>
-                    </article>
-                    <article class="work_card mix web">
-                        <img src="./assets/images/Work-06.png" alt="" class="work_img">
-                        <h3 class="work_title">Kafiil Website</h3>
-                        <article class="work_buttons">
-                            <a href="https://hassanfathy-kafiil-task.vercel.app/" class="work_button"  target="_blank" rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
-                            <a href="https://github.com/HassanFathy10/Kafiil-Task" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
-                        </article>
-                    </article>
-                    <article class="work_card mix web">
-                        <img src="./assets/images/Work-03.png" alt="" class="work_img">
-                        <h3 class="work_title">HF_TalentPage</h3>
-                        <article class="work_buttons">
-                            <a href="https://talent-hassan-fathy.vercel.app/" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
-                            <a href="https://github.com/HassanFathy10/HF_talentPage" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
-                        </article>
-                    </article>
-                    <article class="work_card mix web">
-                        <img src="./assets/images/Work-05.jpg" alt="" class="work_img">
-                        <h3 class="work_title">Old Portfolio</h3>
-                        <article class="work_buttons">
-                            <a href=" https://hassanfathy10.github.io/Old-Portfolio/" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
-                            <a href="https://github.com/HassanFathy10/Old-Portfolio" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
-                        </article>
-                    </article>
-                    <article class="work_card mix react">
-                        <img src="./assets/images/Work-10.jpg" alt="" class="work_img">
-                        <h3 class="work_title">Wikipedia App</h3>
-                        <article class="work_buttons">
-                            <a href="https://wiki-app-hassanfathy.vercel.app/" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
-                            <a href="https://github.com/HassanFathy10/Wiki-App.git" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
-                        </article>
-                    </article>
-                    <article class="work_card mix react">
-                        <img src="./assets/images/React.png" alt="" class="work_img">
-                        <h3 class="work_title">Todo List App</h3>
-                        <article class="work_buttons">
-                            <a href="https://todo-list-app-hassanfathy.vercel.app/" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
-                            <a href="https://github.com/HassanFathy10/Todo-List-App.git" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
-                        </article>
-                    </article>
-                    <article class="work_card mix react">
-                        <img src="./assets/images/React.png" alt="" class="work_img">
-                        <h3 class="work_title">Book Store App</h3>
-                        <article class="work_buttons">
-                            <a href="https://book-store-app-hassanfathy.vercel.app/" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-solid fa-link"></i></a>
-                            <a href="https://github.com/HassanFathy10/Book-StoreApp" class="work_button" target="_blank" rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
-                        </article>
-                    </article>
-                </article>
-            </section>
-            <!--=============== CONTACT ===============-->
-            <section class="contact section" id="contact">
-                <span class="section_subtitle">Get in touch</span>
-                <h2 class="section_title">Contact Me</h2>
-                <article class="contact_container container grid">
-                    <article class="contact_content">
-                        <h3 class="contact_title">Talk to me</h3>
-                        <article class="contact_info">
-                            <article class="contact_card">
-                                <i class="fa-solid fa-envelope fa-bounce contact_card-icon"></i>
-                                <h3 class="contact_card-title">Email</h3>
-                                <span class="contact_card-data">Hassanfathy460@gmail.com</span>
-                                <a href="mailto:Hassanfathy460@gmail.com" target="_blank" target="_blank" rel='noopener noreferrer' class="contact_button">
-                                    Write Me <i class="fa-solid fa-arrow-right contact_button-icon" style="color: #bffdfa;"></i>
-                                </a>
-                            </article>
-                        </article>
-                        <article class="contact_info">
-                            <article class="contact_card">
-                                <i class="fa-brands fa-whatsapp fa-beat contact_card-icon"></i>
-                                <h3 class="contact_card-title">WhatsApp</h3>
-                                <span class="contact_card-data number">+2&nbsp;0114&nbsp;381&nbsp;4036</span>
-                                <a href="https://api.whatsapp.com/send?phone=+201143814036&text=Hello, more information!" target="_blank" rel='noopener noreferrer' class="contact_button">
-                                    Write Me <i class="fa-solid fa-arrow-right contact_button-icon" style="color: #bffdfa;"></i>
-                                </a>
-                            </article>
-                        </article>
-                        <article class="contact_info">
-                            <article class="contact_card">
-                                <i class="fa-solid fa-phone fa-shake contact_card-icon"></i>
-                                <h3 class="contact_card-title">Phone</h3>
-                                <span class="contact_card-data number">+2&nbsp;0114&nbsp;381&nbsp;4036</span>
-                                <a href="tel:+201143814036" target="_blank" rel='noopener noreferrer' class="contact_button">
-                                    Call Me <i class="fa-solid fa-arrow-right contact_button-icon" style="color: #bffdfa;"></i>
-                                </a>
-                            </article>
-                        </article>
-                    </article>
-                        <article class="contact_content">
-                            <h3 class="contact_title">Write me your project</h3>
-                            <form action="" class="contact_form">
-                                <article class="contact_form-div">
-                                    <label for="name" class="contact_form-tag" >Name</label>
-                                    <input type="text" id="name" class="contact_form-input" placeholder="Insert your name">
-                                </article>
-                                <article class="contact_form-div">
-                                    <label for="email" class="contact_form-tag">Email</label>
-                                    <input type="email" id="email" class="contact_form-input" placeholder="Insert your email">
-                                </article>
-                                <article class="contact_form-div">
-                                    <label for="subject" class="contact_form-tag">Subject</label>
-                                    <input type="text" id="subject" class="contact_form-input" placeholder="Subject">
-                                </article>
-                                <article class="contact_form-div contact_form-area">
-                                    <label for="message" class="contact_form-tag ">Project</label>
-                                    <textarea  id="message" cols="30" rows="10" class="contact_form-input" placeholder="Send me your requirements"></textarea>
-                                </article>
-                            </form>
-                            <button class="button" onclick="sendEmail()">Send Message</button>
-                        </article>
-                    </article>
-            </section>
-        </main>
-            <!--=============== FOOTER ===============-->
-            <footer class="footer">
-                    <article class="footer_container container">
-                        <h1 class="footer_title">Hassan Fathy</h1>
-                        <ul class="footer_list">
-                            <li>
-                                <a href="#about" class="footer_link">About</a>
-                            </li> 
-                            <li>
-                                <a href="#work" class="footer_link">Projects</a>
-                            </li>
-                        </ul>
-                        <ul class="footer_social">
-                            <li>
-                                <a href="https://www.linkedin.com/in/hassan-fathy/" target="_blank" rel="noopener no-referrer" class="footer_social-link" aria-label="Link to Linkedin">
-                                <i class="fa-brands fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/HassanFathy10" target="_blank" rel="noopener no-referrer" class="footer_social-link" aria-label="Link to Github">
-                                <i class="fa-brands fa-github"></i></a>
-                        </li>
-                        </ul>
-                            <span class="footer_copy">
-                                &#169; Hassan Fathy. All rigths reserved
-                            </span>
-                    </article> 
-            </footer>
+    </footer>
     <!--==================== SCROLLREVEAL ====================-->
     <script src="./assets/js/scrollreveal.min.js"></script>
     <!--=============== MIXITUP FILTER ===============-->
@@ -456,9 +513,10 @@ c</head>
     <!-- Email.js -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
-        (function(){
+        (function () {
             emailjs.init("9NRxeE7gQm3o5VS5a");
         })();
     </script>
 </body>
+
 </html>
